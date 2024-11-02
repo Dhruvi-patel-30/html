@@ -1,3 +1,4 @@
 # html
-this if my first git repository.
+<hr>
+this if my first git repository.<br>
 Author-dhruvi akabari
