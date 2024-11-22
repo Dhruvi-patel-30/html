@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-form</title>
+   
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{background: url(form\ bg\ img.jfif);
+    background-size: cover;
+}
+
+.login-form{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: #fff;
+}
+
+.login-form h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    text-decoration-style: dotted;
+    text-decoration-color: #fff;
+    
+}
+
+.login-form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.login-form input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.login-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
+
+    </style>
+    
+</head>
+<body>
+    <div class="login-form">
+        <h1 >login form</h1>
+        <form action="#" method="post">
+
+            <p>user name</p>
+            <input type="text" name="user name" placeholder="enter your user name">
+            
+            <p>password</p>
+            <input type="password" name="password" placeholder="enter your password">
+
+            <button type="submit">login</button>
+        </form>
+    </div>
+
+</body>
+</html>
